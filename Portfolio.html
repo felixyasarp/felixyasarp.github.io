@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prakash Yasarp's Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Prakash Yasarp</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<style>
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #2F4858;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  font-size: 16px;
+}
+
+/* Main content styles */
+main {
+  background-color: #F8F8F8;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2F4858;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  text-decoration: none;
+}
+
+/* Image styles */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Button styles */
+.button {
+  background-color: #2F4858;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #F8F8F8;
+  color: #2F4858;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #2F4858;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease
+
+</style>
+	
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hello there! My name is Prakash Yasarp, and I am excited to be a part of the team at Amazon. With a formal education in Data Analytics, I have developed a solid foundation in this field. Additionally, I have a passion for technology and gadgets, which keeps me up-to-date with the latest trends and developments in the industry.</p>
+			<p>When I'm not working, I enjoy watching Anime and Movies to unwind and relax. I also like to stay active and engaged outside of work by indulging in my undying love for football. As a devoted Manchester United supporter, I closely follow sports and never miss a match.</p>
+			<p>Prior to joining Amazon, I worked at TCS for 3.5 years, where I also got an opportunity to lead various Process Improvement Projects which helped me to develop my leadership skills as well as enhanced my problem-solving abilities.</p>
+			<p>In my personal life, I cherish spending quality time with my family and friends. I value building strong relationships and creating memories that last a lifetime.</p>
+			<img src="profile-pic.png" alt="Prakash Yasarp">
+		</section>
+		
+		<section id="work">
+			<h2>My Work</h2>
+			<p>Here, you can showcase your work and achievements.</p>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Prakash Yasarp</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
+</html>
